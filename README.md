@@ -1,5 +1,10 @@
 ## zgen
 
+
+**THIS IS A FORK OF [tarjoilija/zgen](https://github.com/tarjoilija/zgen)**
+I'm trying to keep it up-to-date and merge all PR's of the original repository, since it seems to be no longer maintained.
+
+
 A lightweight plugin manager for Zsh inspired by [Antigen](https://github.com/zsh-users/antigen). Keep your `.zshrc` clean and simple.
 
 Zgen provides you a few simple commands for managing plugins. It installs your plugins and generates a static init script that will source them for you every time you run the shell. We do this to save some startup time by not having to execute time consuming logic (plugin checking, updates, etc). This means that you have to manually check for updates (`zgen update`) and reset the init script (`zgen reset`) whenever you add or remove plugins.
